@@ -27,7 +27,7 @@ export const Form = (
     return(
     <form className="todo-form" onSubmit={handleSubmit} >
         <input onChange={handleFormChange} value={formData.name} type="text" className="todo-input" placeholder="Введите новую задачу..." name="name"/>
-        <button type="button" className="btn btn-add"> Добавить</button>
+        <button type="submit" className="btn btn-add"> Добавить</button>
       </form>    
     )
 }
